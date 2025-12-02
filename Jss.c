@@ -2,6 +2,11 @@
 
 int main() {
 
+    
+
+    printf("Desafio Trunfo!\n");
+    printf("Novo Commit!\n\n");
+
     char estado;
     char codigo[5];
     char nomeCidade[50];
@@ -10,10 +15,7 @@ int main() {
     float pib;
     int pontosTuristicos;
 
-    printf("Desafio Trunfo!\n");
-    printf("Novo Commit!\n\n");
-
-    printf("Digite o estado (A, B, C...): ");
+    printf("Digite o estado (A): ");
     scanf(" %c", &estado);
 
     printf("Digite o código (ex: A01): ");
